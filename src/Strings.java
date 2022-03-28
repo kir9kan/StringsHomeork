@@ -42,6 +42,5 @@ public class Strings {
         builder.append(String.format("%d - %d = %d\n", d, f, d - f));
         builder.append(String.format("%d * %d = %d\n", d, f, d * f));
         System.out.println(builder.toString());
-        System.out.println(builder.toString().replaceAll("=", "равно"));
     }
 }
